@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/bg.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#milad{
+    border: solid red 2px;
+    display: flex;
+    width: 50%;
+    height: 50%;
+   
+}
+#milad .carousel-inner{
+    display: flex;
+
+}
+section{
+    display: flex;
+    border: 1px solid red black;
+
+   
+}
+section .sss{
+    display: flex;
+    
+    border: 1px solid red;
+   
+    
+    
+    width: 33%;
+    height: 30%;
+    
+    margin: 15px 15px;
+    overflow: hidden;
+}
+section .sss video{
+  
+  
+   overflow: hidden;
+ 
+
+}
+.h2c{
+    display: flex;
+    color: white;
+    justify-content: center;
+    margin-top: 25px;
+}
+.sections1{
+    height: 100px;
+    width: 200px;
+}
+
+/* .carousel-item{
+    width: 100%;
+   height: 100%;
+} */
+#milad > img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
